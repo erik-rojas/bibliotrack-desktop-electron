@@ -1,0 +1,9 @@
+.table {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.tableRow {
+  cursor: pointer;
+}

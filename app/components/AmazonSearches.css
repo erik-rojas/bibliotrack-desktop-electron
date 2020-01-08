@@ -1,0 +1,32 @@
+.table {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.tableSearchName {
+  padding: 8px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.tableSearchName input {
+  width: 150px;
+}
+
+.tableSearchName div {
+  margin-top: 6px;
+}
+
+.filterIcon {
+  color: #aaa;
+}
+
+.filterIcon:hover {
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.filterIconToggled {
+  color: #108ee9;
+}

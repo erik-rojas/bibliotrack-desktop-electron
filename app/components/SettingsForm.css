@@ -1,0 +1,29 @@
+.databaseCard {
+  margin-top: 3% !important;
+  width: 100%;
+}
+
+.commonCard {
+  width: 100%;
+}
+
+.cardGroup {
+  width: 47%;
+  margin-top: 2% !important;
+  margin-left: 3% !important;
+  margin-right: 3% !important;
+}
+
+.amazonCard {
+  width: 100%;
+}
+
+.ebayCard {
+  margin-top: 3% !important;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  align-items: flex-start;
+}

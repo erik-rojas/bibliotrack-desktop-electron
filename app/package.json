@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "bibliotrack-desktop",
+  "author": "Mauro U.",
+  "productName": "Bibliotrack",
+  "version": "1.9.0",
+  "description": "Desktop version of bibliotrack.eu",
+  "main": "./main.prod.js",
+  "scripts": {
+    "postinstall": "npm rebuild --runtime=electron --target=2.0.2 --disturl=https://atom.io/download/atom-shell --build-from-source"
+  },
+  "license": "Propietary",
+  "dependencies": {
+    "amazon-product-api": "^0.4.4",
+    "exceljs": "^0.8.5",
+    "mongodb": "^3.0.8",
+    "mongoose": "^4.13.14",
+    "mysql": "^5.3.3",
+    "sequelize": "^4.38.0",
+    "sqlite3": "^4.0.2"
+  }
+}

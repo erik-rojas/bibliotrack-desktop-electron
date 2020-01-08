@@ -1,0 +1,25 @@
+{
+  "mongo": {
+    "host": "127.0.0.1",
+    "port": "27017",
+    "database": "bibliotrack"
+  },
+  "mysql": {
+    "host": "127.0.0.1",
+    "port": "3306",
+    "user": "root",
+    "password": "",
+    "database": "bibliotrack"
+  },
+  "sqlite": {
+    "database": "./db/bibliotrack.sqlite"
+  },
+  "itemsPerFillQuery": 3000,
+  "test": {
+    "attempts": 10,
+    "pageSize": 100,
+    "page": 1,
+    "textSearch": "harry potter",
+    "conditionBetweenWords": "AND"
+  }
+}

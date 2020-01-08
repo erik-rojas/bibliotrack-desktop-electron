@@ -1,0 +1,32 @@
+.table {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.tableSearch {
+  padding: 8px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.tableSearch input {
+  width: 200px;
+}
+
+.tableSearch div {
+  margin-top: 6px;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 200px;
+}
+
+.alignCenter {
+  text-align: center;
+}

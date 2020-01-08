@@ -1,0 +1,32 @@
+{
+  "license": "MIT",
+  "name": "testDatabase",
+  "version": "0.0.5",
+  "dependencies": {
+    "moment": "^2.22.1",
+    "mongodb": "^3.0.7",
+    "mongoose": "^4.13.12",
+    "mysql2": "^1.5.3",
+    "rimraf": "^2.6.2",
+    "sequelize": "^4.37.7",
+    "sqlite3": "^4.0.0"
+  },
+  "scripts": {
+    "test-mongo": "cross-env NODE_ENV=production babel-node testMongoDB.js",
+    "fill-sqlite": "cross-env NODE_ENV=production babel-node fillSQLite.js",
+    "drop-sqlite": "cross-env NODE_ENV=production babel-node dropSQLite.js",
+    "prepare-sqlite": "yarn run drop-sqlite && yarn run fill-sqlite",
+    "test-sqlite": "cross-env NODE_ENV=production babel-node testSQLite.js",
+    "full-test-sqlite": "yarn run prepare-sqlite && yarn run test-sqlite",
+    "init-mysql": "cross-env NODE_ENV=production babel-node initMySQL.js",
+    "fill-mysql": "cross-env NODE_ENV=production babel-node fillMySQL.js",
+    "drop-mysql": "cross-env NODE_ENV=production babel-node dropMySQL.js",
+    "prepare-mysql": "yarn run drop-mysql && yarn run init-mysql && yarn run fill-mysql",
+    "test-mysql": "cross-env NODE_ENV=production babel-node testMySQL.js",
+    "full-test-mysql": "yarn run prepare-mysql && yarn run test-mysql"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "cross-env": "^5.1.5"
+  }
+}

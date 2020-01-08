@@ -1,0 +1,11 @@
+.form {
+  margin-top: 20px;
+}
+
+.breadcrumb {
+  margin: 10px 10px 10px 10px !important;
+  background: #f2f4f5;
+  border: 1px solid #e8e8e8 !important;
+  padding: 5px 30px !important;
+  border-radius: 10px;
+}
