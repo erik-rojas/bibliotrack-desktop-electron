@@ -8,7 +8,7 @@
     "mongoose": "^4.13.12",
     "mysql2": "^1.5.3",
     "rimraf": "^2.6.2",
-    "sequelize": "^4.37.7",
+    "sequelize": "^5.15.1",
     "sqlite3": "^4.0.0"
   },
   "scripts": {
