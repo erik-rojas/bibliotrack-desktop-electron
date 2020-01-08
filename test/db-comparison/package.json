@@ -5,7 +5,7 @@
   "dependencies": {
     "moment": "^2.22.1",
     "mongodb": "^3.0.7",
-    "mongoose": "^4.13.12",
+    "mongoose": "^5.7.5",
     "mysql2": "^1.5.3",
     "rimraf": "^2.6.2",
     "sequelize": "^4.37.7",
