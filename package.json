@@ -192,7 +192,7 @@
     "electron-debug": "^1.4.0",
     "electron-json-storage": "^4.0.2",
     "history": "^4.7.2",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "moment": "^2.20.1",
     "query-string": "^5.0.1",
     "react": "^16.4.0",
