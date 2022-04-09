@@ -3,7 +3,7 @@
   "name": "testDatabase",
   "version": "0.0.5",
   "dependencies": {
-    "moment": "^2.22.1",
+    "moment": "^2.29.2",
     "mongodb": "^3.0.7",
     "mongoose": "^4.13.12",
     "mysql2": "^1.5.3",
